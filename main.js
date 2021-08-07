@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         
                     },'')
                         
-                }, 500);
+                }, 300);
                 observer.unobserve(entry.target);
     
             }
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     entry.target.classList.add('view');
                     let titleStr = entry.target.textContent;
                         
-                }, 500);
+                }, 300);
                 observer.unobserve(entry.target);
     
             }
