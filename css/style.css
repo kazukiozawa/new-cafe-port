@@ -49,6 +49,7 @@
 
 .main-title {
   opacity: 0;
+  font-size: 30px;
 }
 
 .main-title.view {

@@ -255,9 +255,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     $selectNum.innerHTML  = numStr;
 
-
-
-    
         
 });    
 

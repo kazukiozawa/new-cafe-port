@@ -623,6 +623,9 @@
   .slide-menu {
     right: 70%;
   }
+  .main-title {
+    font-size: 23px;
+  }
   .main-title.view .ttlChar {
     font-size: 23px;
   }
@@ -643,7 +646,7 @@
     padding-bottom: 0;
   }
   .chef-main-wrap {
-    margin-bottom: 180px;
+    margin-bottom: 245px;
   }
   .chef-main-wrap .chefs .chef-img {
     width: 50%;
@@ -671,7 +674,7 @@
   }
   .chef-main-wrap .chefs .chef-text .chef-history {
     margin: 0 auto;
-    padding: 0 5%;
+    padding: 23px 5%;
   }
   .chef-main-wrap .chefs .chef-text .chef-history li {
     font-size: 13px;
