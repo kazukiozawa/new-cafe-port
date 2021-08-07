@@ -258,11 +258,3 @@ document.addEventListener('DOMContentLoaded', function () {
         
 });    
 
-// class reserveClass {
-//     constructor(el){
-//         this.el = document.querySelector(el);
-
-        
-
-//     }
-// }
