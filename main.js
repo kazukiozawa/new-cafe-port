@@ -18,8 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-    //resesrveEvent
-
     const reserveEvent = (e)=> {
         e.preventDefault();
         if($body.classList.contains('open')==true){
@@ -87,11 +85,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 
-
-
-    
-    
-    
    
     
     const $phrase = document.querySelector('.before-welcome');
@@ -138,10 +131,7 @@ document.addEventListener('DOMContentLoaded', function () {
         })
     }
     
-    // const meal = document.querySelector('.mealname');   
-    // // const meals = meal.split('');
-    // const mealchar = meal.innerHTML.split('');
-    // console.log(mealchar);
+    
     
     
     const option =  {

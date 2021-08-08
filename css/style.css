@@ -711,18 +711,18 @@ header .a-content .head-right .reserve-btn .head-reserve {
   margin-bottom: 40px;
   padding-left: 62%;
   padding-right: 10px;
-  color: red;
+  color: #e43232;
   font-size: 20px;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #e43232;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   z-index: 1;
 }
 
 .access-wrapper .container .aboutaccess a:hover {
-  border: 　1px solid red;
-  -webkit-box-shadow: 4px 4px red;
-          box-shadow: 4px 4px red;
+  border: 　1px solid #e43232;
+  -webkit-box-shadow: 4px 4px #e43232;
+          box-shadow: 4px 4px #e43232;
   color: pink;
 }
 
