@@ -136,8 +136,11 @@ document.addEventListener('DOMContentLoaded', function () {
     
     const option =  {
         root: null,
+        rootMargin: "-60px 0px"
+    }
+    const option2 =  {
+        root: null,
         rootMargin: "-120px 0px"
-        
     }
     
     const ioTitle = new IntersectionObserver(ttlEve, option);
@@ -148,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ioTitle.observe($accTit);
     
     
-    const ioBeforeWrap = new IntersectionObserver(viewEve, option);
+    const ioBeforeWrap = new IntersectionObserver(viewEve, option2);
     
     ioBeforeWrap.observe($phrase); 
     
