@@ -297,81 +297,64 @@ a {
 
 
 .welcome-wrapper {
-    margin: 0 auto;
-
-    max-width:1000px;
-    // height:800px;
-    // padding:100px 30px;
-    // padding-top: 100px;
+    padding: 64px 0 18vh 12vw;
+    width: auto;
 
   .welcome-content {
     display:flex;
     flex-direction: row;
-    // justify-content: space-between;
-    padding: 50px 50px;
-    margin: 100px 0;
-
+    // padding: 50px 50px;  ・・・・・微調整
+    // margin: 100px 0;
+    
     .welcome-text{
+      flex-grow: 1;
       box-sizing: border-box;
       width: 40%;
-
+      padding-right: 30px;
+      
+      flex:1;
+      
+      & h2 {
+        padding-bottom: 10%;
+    
+      }
+    
+      & p {
+        display:inline-block;
+        font-size: 15px;
+        line-height: 25px;
+        text-indent: 1em;
+        color:rgb(119, 60, 17);
+      
+      }
+      
+      
+    
+      & h2,p {
+        display: inline-block;
+        text-align:left;
+        // table-layout: fixed;
+        word-wrap: break-word;
+      }
     }
     .welcome-images{
+      flex: 2.4;
+
       box-sizing: border-box;
       width: 60%;
-    }
-
-
-  }
-  
-  
-  
-  .welcome-text {
-    
-    flex:1;
-    
-    & h2 {
-      // font-family: 'Shippori Mincho', serif;
-      padding-bottom: 10%;
-
+      padding-top: 20px;
       
-      
-
+      .w-image {
+        min-height: 450px;
+        width: 100%;
+        object-fit: cover;
+    
+      }
     }
 
-    & p {
-      // font-family: 'Noto Serif JP', serif;
-      // padding-top: 200px; 
-      display:inline-block;
-      line-height: 25px;
-      text-indent: 1em;
-      color:rgb(119, 60, 17);
-    
-    }
-    
-    
 
-    & h2,p {
-      max-width: 400px;
-      display: inline-block;
-      text-align:left;
-      // table-layout: fixed;
-      word-wrap: break-word;
-    }
   }
-
-
-  .welcome-images {
-    flex: 1;
-    padding-top: 20px;
-    
-    .w-image {
-      width: 100%;
-      object-fit: cover;
-
-    }
-  }
-
+  
 }
 
 .menu-wrapper {
